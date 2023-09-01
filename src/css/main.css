@@ -40,44 +40,51 @@
   justify-content: center;
   align-items: center;
 }
+
 .trailer .button {
   padding: 25px 20px;
 }
+
 .backdrop {
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
   bottom: 0;
-  background-color: #000000a1;
+  background-color: #00000041;
   opacity: 1;
 }
+
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 .no-scroll {
   overflow: hidden;
 }
-.modal {
+.modal{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #acacac;
+  background-color: #8ee8ff71;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  min-width: 400px;
   min-height: 300px;
+  min-width: 400px;
+  border-radius: 5%;
+  
 }
-.button-close {
+.button-close{
   align-self: flex-end;
-  background-color: #0a3853;
+  background-color: #004449;
   color: #fff;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border: none;
 }
